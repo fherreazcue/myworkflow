@@ -9,6 +9,8 @@ inputs:
     type: File
   file2:
     type: File
+  file3:
+    type: File
 
 outputs:
   concatenated_file:
@@ -21,4 +23,5 @@ steps:
     in:
       input_file1: file1
       input_file2: file2
+      input_file3: file3
     out: [output_file]
